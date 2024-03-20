@@ -1,0 +1,8 @@
+cd auracode/Scripts
+.\activate
+cd ../..
+
+desactivar entorno
+cd auracode/Scripts
+.\activate
+deactivate

@@ -1,0 +1,39 @@
+{
+    "head":{
+        "entity": "usuario",
+        "table": "usuarios",
+        "schema":"public",
+        "package":"com.tesis.v1"
+    },
+    "atributos": {
+        "nombre" : {
+            "type": "String",
+            "validation": {
+                "notnull":true,
+                "NotNull": false,
+                "NotEmpty": false,
+                "Size": false,
+                "Email": false,
+                "Min": false,
+                "Max": false,
+                "DateTimeFormat": false
+            },
+            "column": "nombre",
+            "id": true,
+            "joinColumn": "nameJon"
+            
+        },
+        "apellido": {
+            "type": "String"
+        },
+        "edad": {
+            "type": "Integer"            
+        },
+        "corre": {
+            "type": "String"            
+        },
+        "constrasenna": {
+            "type": "String"            
+        }
+    }
+}
